@@ -1,0 +1,9 @@
+Łamigłówka „Kwadraty” z numeru 8/2001 (http://archiwum.wiz.pl/2001/01085000.asp). Dane wejściowe: rozmiar planszy m × n (m, n ∈ {1,...,32}), lista trójek postaci (i, j, k), gdzie i ∈ {1,...,m}, j ∈ {1,...,n}, k ∈ {0,...,(n-2)·(m-2)}) opisująca pola z liczbami. Dane wyjściowe: lista trójek liczb postaci (i, j, d) przedstawiająca rozwiązanie łamigłówki. Trójka (i, j, d) przedstawia kwadrat, którego przeciwległe wierzchołki mają współrzędne (i, j) oraz (i+d, j+d).
+
+Dane wejściowe należy wczytywać z pliku tekstowego o nazwie podanej podczas wywołania programu. Wyniki należy wypisywać do standardowego strumienia wyjściowego. Dane wejściowe opisujące mniejszą łamigłówkę z czasopisma:
+7.
+7.
+[(3,3,0), (3,5,0), (4,4,1), (5,1,0), (6,6,3)].
+
+Wyniki (dla przykładu powyżej):
+[(1,1,2), (1,5,2), (2,2,4), (5,1,2), (4,4,3)]
